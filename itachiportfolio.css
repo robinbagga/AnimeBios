@@ -1,0 +1,178 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+    /*outline: 2px dotted red; */
+}
+.container{
+    padding-top: 30px;
+    /* width: 1300px; */
+    background: linear-gradient(#e7c4c4, #b12626, #3F0D12);
+    /* margin: auto; */
+    vertical-align: top;
+}
+/* #mainbox{
+    width: 1300px;
+    background: linear-gradient(#e7c4c4, #b12626, #3F0D12);
+    padding: 0px;
+    margin: auto;
+    vertical-align: top;
+} */
+.introvideo{
+    text-align: center;
+}
+.tiktok{
+    background-color: black;
+    /* width: 200px; */
+    border-radius: 4px;
+    text-align: center;
+}
+#tiktoklink{
+    color: white ;
+    text-decoration: none;
+    /* font-family: "monaco", monospace; */
+    /* padding-left: 10px; */
+} 
+#topheader{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 10px;
+    justify-content: space-between;
+    /* font-family: "monaco", monospace; */
+    background-color: none;
+}
+#name{
+    letter-spacing: 4px;
+}
+.bulletsbox{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* BIO TITLE STYLING */
+/* .biotitle{
+
+} */
+
+/* ---------------- */
+#titletwo{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+.bullets{
+    display: flex;
+    align-items: center;
+    font-size: 150%;
+    padding-bottom: 30px;
+}
+.bulletpoints{
+    padding-right: 30px;
+    color: white;
+    font-size: large;
+    text-align: center;
+    list-style-type: none;
+}
+/* IMAGE EFFECT CSS */
+.wrap-image {
+    position: relative;
+    max-width: 750px;
+    padding-left: 20px;
+}
+.wrap-image::before, .wrap-image::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    border: 2px solid black;
+    transition: all 0.25s ease-out;
+}
+.wrap-image::before {
+    background-color: black;
+    top: -15px;
+    left: -15px;
+    padding-left: 40px;
+
+}
+.wrap-image::after {
+    bottom: -15px;
+    right: -15px;
+}
+.wrap-image:hover::before {
+    top: 15px;
+    left: 15px;
+}
+.wrap-image:hover::after {
+    bottom: 15px;
+    right: 15px;
+}
+/* BIO SECTION */
+.bio{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.biotitle{
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+.biotable{
+    padding-top: 60px;
+}
+.table{
+    width: 800px;
+    height:300px;
+}
+.itachipng{
+    max-height: 400px;
+    width: auto;
+    padding-left: 125px;
+}
+.familytitle{
+    color: white;
+    font-style: italic;
+}
+.surveyrow{
+        justify-content: space-between;
+}
+.survey{
+    text-align: left;
+    color: white;
+    padding-bottom: 30px;
+}
+.surveyimage{
+    height: 40%;
+    width: 40%;
+    border-radius: 5px;
+}
+#footer{
+    text-align: center;
+    justify-content: space-between;
+    background-color: black;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 300px;
+    padding-right: 300px;
+    width: 1300px;
+    max-height: 30px;
+    align-items: center;
+    border-top: 5px solid maroon;
+}
+/* .socialimages{
+    max-width: 10%;
+    height: 10%;
+    display: flex;
+    
+} */
+.socialfooter{
+    color: white ;
+    text-decoration: none;
+    font-style: italic;
+    font-size: large;
+}
+.socialfooter:hover{
+    color: maroon;
+    text-decoration: none;
+}
