@@ -8,10 +8,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Itachi Uchiha</title>
     <link rel="stylesheet" href="itachiportfolio.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            
+            
+            // $(img).click(function(){
+            //         $(this).hide()
+            //     })
+
+
+            $(document).ready( function() {
+    
+    
+                $(".jsimages").hover( function() {
+        var temp = $(this).attr('src');
+        $(this).attr('src', $(this).attr('data-alt-src'))
+        $(this).attr('data-alt-src',temp)
+    })
+})
+
+            });
+
+
+
+
+
+
+
+    </script>
 
 <body class="container">
         <header id="topheader">
-            <h1 id="name">-UCHIHA ITACHI-</h1>
+            <h1 class="name">-UCHIHA ITACHI-</h1>
+            <img class="crestpng" src="images/crest.png">
             <h3 id="punchline">The Red Flash of the Leaf</h3>
         </header>
 
@@ -21,7 +53,7 @@
             <h5 id="introline">An intro to the Red Flash</h5>
             <iframe src=https://www.youtube.com/embed/1Z5aI7txujg?start=5 frameborder=4 width=1120 height=630></iframe>
         </div>
-
+        <hr>
         <div class="tiktok">
             <a href="https://vm.tiktok.com/ZMeY1FmFd/" target="_blank" style="text-decoration: none"
                 id="tiktoklink">TikTok: therobinproject</a>
@@ -94,6 +126,30 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <hr>
+        <div class="jsrow">
+            <div class="sharingantitle">
+                <img class="crowpng1" src="images/crow.png">
+                <h4>The Uchiha and their Sharingan</h4>
+                <img class="crowpng2" src="images/crow.png">
+            </div>
+            <div class="d-flex">
+                <img class="jsimages d-block mb-2" src='images/sasuke.jpeg' data-alt-src='images/sasukesharingan.jpeg' />
+                <img class="jsimages d-block mb-2" src='images/itachijs.jpeg' data-alt-src='images/itachims.jpeg' />
+            </div>
+            <div class="d-flex">
+                <img class="jsimages d-block mb-2" src='images/fugakupics.jpeg' data-alt-src='images/fugakums.jpeg' />
+                <img class="jsimages d-block mb-2" src='images/shisui.jpeg' data-alt-src='images/shisuims.jpeg' />
+            </div>
+            <div class="d-flex">
+                <img class="jsimages d-block mb-2" src='images/madara.jpeg' data-alt-src='images/madarams.gif' />
+                <img class="jsimages d-block mb-2" src='images/obito.jpeg' data-alt-src='images/obitoms.gif' />
+            </div>
+        
+            <!-- <div>
+                <img class="sasuke d-block mb-2" src='./shortsfront.jpg' data-alt-src='./shortsback.jpg' />
+            </div> -->
         </div>
         <hr>
         <div class="surveyrow d-flex">
