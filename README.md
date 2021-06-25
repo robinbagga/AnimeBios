@@ -5,7 +5,7 @@ If you've had the chance to look through my GitHub you might have noticed that I
 
 I truly enjoyed the process of designing the site from the get go and I believe this is going to be a project I will continue to work on and add onto. I began by creating a nice container to fit all the contents of the site into a nice box and tossed in boostrap as well so I could work quicker with the design of the site. I have added everything from images and a YouTube video to a background gradient for the overall site and even Javascript code for a few on-hover elements!
 
-## *Manipulating an image to move on hover*.
+## *Manipulating an image to move on hover*
 
 #### HTML
 ```
