@@ -1,5 +1,5 @@
 # Itachi Uchiha Front-End Application
-## Demonstrating use of HTML, CSS and Javascript
+## Demonstrating use of HTML, CSS and Javascript for Front-End Development
 ---
 If you've had the chance to look through my GitHub you might have noticed that I truly enjoy being a part of the anime community. So in order to demonstrate web fundamentals and my design skills, I took it upon myself to create a bio page of one of my favorite characters from the hit manga and anime Naruto, Itachi Uchiha.
 
